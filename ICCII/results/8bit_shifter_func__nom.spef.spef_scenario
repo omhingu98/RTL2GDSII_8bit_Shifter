@@ -1,0 +1,6 @@
+./results/8bit_shifter_func::nom.spef.p1_125.spef for scenarios: 
+	 scenario: func::nom, corner type: late
+
+./results/8bit_shifter_func::nom.spef.p2_125.spef for scenarios: 
+	 scenario: func::nom, corner type: early
+
