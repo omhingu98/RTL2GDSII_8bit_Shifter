@@ -1,0 +1,61 @@
+****************************************
+Report : timing
+	-path_type full
+	-delay_type max
+	-nosplit
+	-input_pins
+	-nets
+	-slack_lesser_than 0.000000
+	-max_paths 1
+	-sort_by slack
+Design : shifter
+Version: W-2024.09
+Date   : Tue Jun  3 10:32:34 2025
+****************************************
+
+
+  Startpoint: Shift_Amount[0] (input port clocked by Clock)
+  Endpoint: Data_Out_reg[6] (rising edge-triggered flip-flop clocked by Clock)
+  Path Group: Clock
+  Path Type: max
+
+  Point                              Fanout       Incr       Path
+  ----------------------------------------------------------------------
+  clock Clock (rise edge)                     0.000000   0.000000
+  clock network delay (ideal)                 0.000000   0.000000
+  input external delay                        0.400000   0.400000 r
+  Shift_Amount[0] (in)                        0.000000 & 0.400000 r
+  Shift_Amount[0] (net)                12 
+  HFSINV_702_3/A (IBUFFX2_RVT)                0.000108 & 0.400108 r
+  HFSINV_702_3/Y (IBUFFX2_RVT)                0.574453 & 0.974560 f
+  HFSNET_3 (net)                       16 
+  ctmTdsLR_1_5/A4 (AO22X1_RVT)                0.001184 & 0.975744 f
+  ctmTdsLR_1_5/Y (AO22X1_RVT)                 0.435375 & 1.411119 f
+  n204 (net)                            3 
+  U232/A4 (AND4X1_RVT)                        0.000014 & 1.411134 f
+  U232/Y (AND4X1_RVT)                         0.657309 & 2.068442 f
+  n211 (net)                            3 
+  ctmTdsLR_2_590/A1 (OA222X1_RVT)             0.000006 & 2.068448 f
+  ctmTdsLR_2_590/Y (OA222X1_RVT)              0.985879 & 3.054327 f
+  tmp_net17 (net)                       3 
+  ctmTdsLR_1_589/A1 (OA222X1_RVT)             0.000003 & 3.054331 f
+  ctmTdsLR_1_589/Y (OA222X1_RVT)              0.958735 & 4.013066 f
+  N27 (net)                             1 
+  Data_Out_reg[6]/D (DFFARX1_RVT)             0.000005 & 4.013070 f
+  data arrival time                                      4.013070
+
+  clock Clock (rise edge)                     3.000000   3.000000
+  clock network delay (ideal)                 0.000000   3.000000
+  Data_Out_reg[6]/CLK (DFFARX1_RVT)                      3.000000 r
+  clock reconvergence pessimism               0.000000   3.000000
+  clock uncertainty                           -0.300000  2.700000
+  library setup time                          -0.671926  2.028074
+  data required time                                     2.028074
+  ----------------------------------------------------------------------
+  data required time                                     2.028074
+  data arrival time                                      -4.013070
+  ----------------------------------------------------------------------
+  slack (VIOLATED)                                       -1.984997
+
+
+1
