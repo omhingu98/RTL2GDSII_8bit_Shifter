@@ -104,7 +104,7 @@ module testbench;
 endmodule
 ```
 ## RTL Simulation Waveform
-![RTL Waveform](8bit_shifter_Snapshots_All_theStages/waveform.png)
+![RTL Waveform](8bit_shifter_Snapshots_All_the_Stages/waveform.png)
 
 ## Synthesis Flow – Synopsys Design Compiler
 ```
