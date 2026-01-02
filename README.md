@@ -104,7 +104,7 @@ module testbench;
 endmodule
 ```
 ## RTL Simulation Waveform
-![RTL Waveform](8bit_shifter_Snapshots_All_the_Stages/waveform.png)
+![RTL Waveform](8bit_shifter_Snapshots_All_the_Stages/Verdi/waveform.png)
 
 ## Synthesis Flow – Synopsys Design Compiler
 ```
@@ -132,19 +132,19 @@ set_max_transition -clock_path 0.15 [get_clocks Clock]
 ## Physical Design – IC Compiler II
 
 ### Floorplanning
-![Floorplan](8bit_shifter_Snapshots_All_the_Stages/floorplan_view.png)
+![Floorplan](8bit_shifter_Snapshots_All_the_Stages/Floorplan/floorplan_view.png)
 
 ### Power Planning
-![Power Planning](8bit_shifter_Snapshots_All_the_Stages/power_plan_view.png)
+![Power Planning](8bit_shifter_Snapshots_All_the_Stages/Powerplan/power_plan_view.png)
 
 ### Placement
-![Placement](8bit_shifter_Snapshots_All_the_Stages/placement_view.png)
+![Placement](8bit_shifter_Snapshots_All_the_Stages/Placement/placement_view.png)
 
 ### Clock Tree Synthesis
-![CTS](8bit_shifter_Snapshots_All_the_Stages/cts_view.png)
+![CTS](8bit_shifter_Snapshots_All_the_Stages/Clock/cts_view.png)
 
 ### Routing
-![Routing](8bit_shifter_Snapshots_All_the_Stages/routing_view.png)
+![Routing](8bit_shifter_Snapshots_All_the_Stages/Route/routing_view.png)
 
 ## Static Timing Analysis – PrimeTime
 
