@@ -132,7 +132,7 @@ set_max_transition -clock_path 0.15 [get_clocks Clock]
 ## Physical Design – IC Compiler II
 
 ### Floorplanning
-![Floorplan](8bit_shifter_Snapshots_All_the_Stages/floorplan_View.png)
+![Floorplan](8bit_shifter_Snapshots_All_the_Stages/floorplan_view.png)
 
 ### Power Planning
 ![Power Planning](8bit_shifter_Snapshots_All_the_Stages/power_plan_view.png)
@@ -144,7 +144,7 @@ set_max_transition -clock_path 0.15 [get_clocks Clock]
 ![CTS](8bit_shifter_Snapshots_All_the_Stages/cts_view.png)
 
 ### Routing
-![Routing](8bit_shifter_Snapshots_All_the_Stages/Routing_View.png)
+![Routing](8bit_shifter_Snapshots_All_the_Stages/routing_view.png)
 
 ## Static Timing Analysis – PrimeTime
 
